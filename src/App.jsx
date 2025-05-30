@@ -1,7 +1,7 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import TermsAndConditionsForBakerslineGO from "./project/bakersline/TermsAgent";
 import BakerslinePartnersTerms from "./project/bakersline/TermsPartner";
+import BakerslineTerms from "./project/bakersline/TermsBakersline";
 
 const App = () => {
   return (
@@ -13,6 +13,10 @@ const App = () => {
       <Route
         path="/bakersline/bakerslinepartners/terms_condition"
         element={<BakerslinePartnersTerms />}
+      />
+            <Route
+        path="/bakersline/bakersline/terms_condition"
+        element={<BakerslineTerms />}
       />
     </Routes>
   );

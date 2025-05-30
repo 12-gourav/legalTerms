@@ -96,7 +96,7 @@ const TermsAndConditionsForBakerslineGO = () => {
         <p>
           <strong>Bakersline Support Team</strong><br />
           Email: bakersline.info@gmail.com<br />
-          Phone: 9415453334<br />
+          Phone: +91-9415453334<br />
           Website: <a href="https://bakersline.in" target="_blank" rel="noopener noreferrer">bakersline.in</a>
         </p>
       </section>
